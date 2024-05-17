@@ -1,5 +1,5 @@
 <?php
-// Operador spaceshipping
+// Operador spaceship
 /*
     Esse nome é dado pelo formato que resulta do uso do
     sinal de menor seguido do sinal de igualdade finalizando
