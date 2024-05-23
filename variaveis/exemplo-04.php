@@ -13,7 +13,7 @@ Exemplo:
 Para passar mais de uma variavel usa se o "E comercial"
 o &.
 Exemplo:
-
+http://localhost/hcode/variaveis/exemplo-04.php?numero=19&numero0=98
 */
 /* esse (int) está convertendo o valor para inteiro
 isso é chamado de cast
