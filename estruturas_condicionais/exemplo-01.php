@@ -21,4 +21,12 @@ if($idade <= $idade_bebe){
 }else{
     echo "Você é um idoso.";
 }
+
+//Operador Ternario
+
+echo "<br>";
+// ? ENTÃO exibe a primeira mensagem
+// : SE NÃO exibe a segunda mensagem
+echo ($idade < $idade_adulto)?"Menor de idade":"Maior de idade";
+
 ?>
