@@ -12,7 +12,7 @@ function trocaValor(&$valor){
 var_dump(trocaValor($a));
 echo "<br>";
 var_dump(trocaValor($a));
-echo "<br>";
+echo "<br>";    
 echo $a;
 
 ?>
