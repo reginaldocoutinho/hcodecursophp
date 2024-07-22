@@ -4,7 +4,7 @@ function soma(int ...$valores):string{
     return array_sum($valores);
 };
 
-echo var_dump(soma(2git,2));
+echo var_dump(soma(2,2));
 echo "<br>";
 // Se tentar passar um valor decimal ele vai 
 //converter para int pois estava configurado na funcao para receber valores inteiros
