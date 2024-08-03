@@ -1,8 +1,6 @@
 <?php
-
-$conn = new PDO("mysql:dbname=dbphp7;host=localhost;port=3307", "root", "root");
-
-$stmt = $conn->prepare("SELECT * FROM usuario ORDER BY login");
+require_once("conexao.php");
+$stmt = $conn->prepare("SELECT * FROM usuario ORDER BY id");
 
 $stmt->execute();
 
