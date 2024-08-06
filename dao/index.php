@@ -22,9 +22,23 @@ require_once("config.php");
 // echo json_encode($search);
 
 //Validation Login and password
-$usuario = new Usuario();
-$usuario->login("Reginaldo Coutinho", "123456");
+// $usuario = new Usuario();
+// $usuario->login("Reginaldo Coutinho", "123456");
+// echo $usuario;
 
+
+// New User
+// $aluno = new Usuario("Aluno 2", "alaskda");
+// $aluno->setLogin("aluno");
+// $aluno->setSenha("1234");
+// $aluno->insert();
+// echo $aluno;
+
+//Update user
+$usuario = new Usuario();
+
+$usuario->loadById(8);
+$usuario->update("Professor","prof1234");
 
 echo $usuario;
 
